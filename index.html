@@ -8,12 +8,11 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/controllers.js"></script>
 	</head>
 	<body>
-	<h1>Input text here: <input type="text" ng-model="text"></h1>
-	<h2>Text: {{text}}</h2>
-	<input type="text" ng-model="stuff">
-	<h2>Other text: {{stuff}} and {{text}}</h2>
-	
+		<div ng-view></div>
 	</body>
 </html>
